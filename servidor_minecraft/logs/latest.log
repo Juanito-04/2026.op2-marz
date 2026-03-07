@@ -1,0 +1,49 @@
+[07Mar2026 00:06:56.448] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of kamushkarkir) moved wrongly! 9.932399973688165
+[07Mar2026 00:07:28.371] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of kamushkarkir) moved too quickly! 4.809946330624712,-25.5,-6.445480707783304
+[07Mar2026 00:07:28.421] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of kamushkarkir) moved too quickly! 4.809946330624712,-25.5,-6.445480707783304
+[07Mar2026 00:07:28.471] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Boat (vehicle of kamushkarkir) moved too quickly! 4.809946330624712,-25.5,-6.445480707783304
+[07Mar2026 00:08:32.689] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[07Mar2026 00:08:58.429] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10757ms or 215 ticks behind
+[07Mar2026 00:10:20.816] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: message.sleeping_bags.sleep
+[07Mar2026 00:10:47.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <kamushkarkir> ya me voy, avisas para cerrar
+[07Mar2026 00:10:52.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <LFCR> ok
+[07Mar2026 00:10:52.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <kamushkarkir> mas tarde o mañana juegow
+[07Mar2026 00:11:30.051] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: kamushkarkir lost connection: Disconnected
+[07Mar2026 00:11:30.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kamushkarkir left the game
+[07Mar2026 00:11:30.052] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
+[07Mar2026 00:18:02.875] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: LFCR has made the advancement [Dragon Growth Hormone]
+[07Mar2026 00:22:24.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: message.sleeping_bags.sleep
+[07Mar2026 00:24:41.093] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: LFCR lost connection: Disconnected
+[07Mar2026 00:24:41.093] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: LFCR left the game
+[07Mar2026 00:24:41.093] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LFCR
+[07Mar2026 00:25:24.134] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@57a5e1ba
+[07Mar2026 00:25:24.140] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: LFCR[/192.168.195.171:55383] logged in with entity id 294051 at (194.42940159958636, 56.0, -720.2375000119209)
+[07Mar2026 00:25:24.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: LFCR joined the game
+[07Mar2026 00:25:24.196] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7e50afad
+[07Mar2026 00:25:26.101] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LFCR (18)
+[07Mar2026 00:25:26.102] [Server thread/WARN] [voicechat/]: [voicechat] Connected client LFCR has incompatible voice chat version (server=20, client=18)
+[07Mar2026 00:36:16.434] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: message.sleeping_bags.sleep
+[07Mar2026 00:37:21.603] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: LFCR lost connection: Disconnected
+[07Mar2026 00:37:21.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: LFCR left the game
+[07Mar2026 00:37:21.604] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LFCR
+[07Mar2026 00:56:48.422] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[07Mar2026 00:56:48.505] [Server thread/INFO] [com.github.joelgodofwar.sps.SinglePlayerSleepMod/]: Saving configs...
+[07Mar2026 00:56:48.505] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
+[07Mar2026 00:56:48.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Mar2026 00:56:48.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Mar2026 00:56:48.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Mar2026 00:56:48.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/minecraft:overworld
+[07Mar2026 00:56:48.728] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Mar2026 00:56:48.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/minecraft:the_nether
+[07Mar2026 00:56:48.734] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Mar2026 00:56:48.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/minecraft:the_end
+[07Mar2026 00:56:48.737] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Mar2026 00:56:48.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/twilightforest:twilightforest
+[07Mar2026 00:56:48.740] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[07Mar2026 00:56:48.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/twilightforest:skylight_forest
+[07Mar2026 00:56:48.743] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[07Mar2026 00:56:48.834] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Mar2026 00:56:51.191] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Mar2026 00:56:51.191] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Mar2026 00:56:51.192] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[07Mar2026 00:56:51.192] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
