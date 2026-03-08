@@ -1,0 +1,72 @@
+[08Mar2026 00:02:22.031] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ray lost connection: Disconnected
+[08Mar2026 00:02:22.034] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ray left the game
+[08Mar2026 00:02:22.034] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ray
+[08Mar2026 00:03:54.250] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: kamushkarkir moved too quickly! 1401.6091128702578,-66.0,3011.6744601314017
+[08Mar2026 00:07:37.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: message.sleeping_bags.sleep
+[08Mar2026 00:08:20.688] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Potato'/126235, l='ServerLevel[Mundo raro]', x=271.70, y=64.26, z=-782.50]
+[08Mar2026 00:09:03.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kamushkarkir has reached the goal [Spectral Guardian]
+[08Mar2026 00:14:08.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <LFCR> ningun aldeano te cambia esmeralda por hueso?
+[08Mar2026 00:14:27.310] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <kamushkarkir> no que yo sepa
+[08Mar2026 00:14:49.733] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <LFCR> como puedo conseguir bastante hueso?
+[08Mar2026 00:15:28.168] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <kamushkarkir> spawn de esqueletos en las dungeons esas que es por pisos
+[08Mar2026 00:15:39.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <LFCR> cierto
+[08Mar2026 00:19:06.099] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: message.sleeping_bags.sleep
+[08Mar2026 00:19:45.944] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Potato'/130671, l='ServerLevel[Mundo raro]', x=271.70, y=64.26, z=-782.50]
+[08Mar2026 00:19:45.994] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Potato'/130672, l='ServerLevel[Mundo raro]', x=271.70, y=64.26, z=-782.50]
+[08Mar2026 00:21:23.947] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: kamushkarkir lost connection: Disconnected
+[08Mar2026 00:21:23.948] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kamushkarkir left the game
+[08Mar2026 00:21:23.949] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
+[08Mar2026 00:21:34.994] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1ff1aac8
+[08Mar2026 00:21:35.005] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: kamushkarkir[/192.168.195.147:63353] logged in with entity id 131098 at (224.48344375734143, 68.0, -798.9564570873442)
+[08Mar2026 00:21:35.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kamushkarkir joined the game
+[08Mar2026 00:21:35.078] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4da26fcb
+[08Mar2026 00:21:35.081] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@360cf80f (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
+[08Mar2026 00:21:35.084] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@796d407c (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
+[08Mar2026 00:21:37.503] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kamushkarkir (20)
+[08Mar2026 00:21:37.509] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[08Mar2026 00:22:14.570] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
+[08Mar2026 00:22:15.573] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
+[08Mar2026 00:22:15.576] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
+[08Mar2026 00:23:26.156] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 4061c684-bf7c-3757-9a94-fd50d1219759 timed out
+[08Mar2026 00:23:26.156] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player kamushkarkir
+[08Mar2026 00:23:26.157] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[08Mar2026 00:23:30.045] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
+[08Mar2026 00:23:31.025] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
+[08Mar2026 00:23:31.026] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
+[08Mar2026 00:23:33.014] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:23:42.948] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:24:32.827] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:25:08.802] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:25:53.266] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:26:04.410] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:26:10.243] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:26:13.580] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport due to missing waystone
+[08Mar2026 00:36:03.535] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: message.sleeping_bags.sleep
+[08Mar2026 00:36:16.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <LFCR> ya me voy
+[08Mar2026 00:36:20.212] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: LFCR lost connection: Disconnected
+[08Mar2026 00:36:20.213] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: LFCR left the game
+[08Mar2026 00:36:20.214] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LFCR
+[08Mar2026 00:37:37.629] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: kamushkarkir lost connection: Disconnected
+[08Mar2026 00:37:37.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kamushkarkir left the game
+[08Mar2026 00:37:37.629] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
+[08Mar2026 00:38:02.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[08Mar2026 00:38:02.433] [Server thread/INFO] [com.github.joelgodofwar.sps.SinglePlayerSleepMod/]: Saving configs...
+[08Mar2026 00:38:02.436] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
+[08Mar2026 00:38:02.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Mar2026 00:38:02.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Mar2026 00:38:02.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Mar2026 00:38:02.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/minecraft:overworld
+[08Mar2026 00:38:02.835] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Mar2026 00:38:02.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/minecraft:the_nether
+[08Mar2026 00:38:02.838] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Mar2026 00:38:02.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/minecraft:the_end
+[08Mar2026 00:38:02.839] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Mar2026 00:38:02.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/twilightforest:twilightforest
+[08Mar2026 00:38:02.841] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[08Mar2026 00:38:02.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo raro]'/twilightforest:skylight_forest
+[08Mar2026 00:38:02.844] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[08Mar2026 00:38:02.892] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Mar2026 00:38:04.670] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Mar2026 00:38:04.700] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Mar2026 00:38:04.701] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[08Mar2026 00:38:04.920] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved

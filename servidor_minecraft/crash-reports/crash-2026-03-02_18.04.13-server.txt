@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 3/2/26, 6:04 PM
+Description: Exception in server tick loop
+
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1135) ~[?:?] {re:mixin}
+	at net.minecraft.world.gen.feature.template.TemplateManager.func_200219_b(SourceFile:64) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.world.gen.feature.template.TemplateManager.func_200220_a(SourceFile:54) ~[?:?] {re:classloading,re:mixin}
+	at net.mcreator.medieval_craft_structures.procedures.MosteiroSProcedure$1.run(MosteiroSProcedure.java:71) ~[medieval_craft_structures:?] {re:classloading,pl:eventbus:A}
+	at net.mcreator.medieval_craft_structures.procedures.MosteiroSProcedure$1.tick(MosteiroSProcedure.java:64) ~[medieval_craft_structures:?] {re:classloading,pl:eventbus:A}
+	at net.minecraftforge.eventbus.ASMEventHandler_1411__tick_ServerTickEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.fml.hooks.BasicEventHooks.onPostServerTick(BasicEventHooks.java:106) ~[forge:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:828) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:APP:francium.mixins.json:common.RandomInitMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:APP:francium.mixins.json:common.RandomInitMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:APP:francium.mixins.json:common.RandomInitMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Thread.java:829) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 6.8.0-1044-azure
+	Java Version: 11.0.30, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1382334472 bytes (1318 MB) / 2596274176 bytes (2476 MB) up to 15032385536 bytes (14336 MB)
+	CPUs: 4
+	JVM Flags: 2 total; -Xms2G -Xmx14G
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar runtime_enum_extender PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar capability_inject_definalize PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/redirector-5.0.0.jar redirector TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.42.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.42
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		dynamiclightsreforged-mc1.16.5_v1.0.1.jar         |Dynamic Lights Reforged       |dynamiclightsreforged         |mc1.16.5_v1.0.1     |DONE      |Manifest: NOSIGNATURE
+		inventorysorter-1.16.1-18.1.0.jar                 |Simple Inventory Sorter       |inventorysorter               |18.1.0              |DONE      |Manifest: NOSIGNATURE
+		mowziesmobs-1.5.27.jar                            |Mowzie's Mobs                 |mowziesmobs                   |1.5.27              |DONE      |Manifest: NOSIGNATURE
+		TrashSlot_1.16.3-12.2.1.jar                       |TrashSlot                     |trashslot                     |12.2.1              |DONE      |Manifest: NOSIGNATURE
+		jei-1.16.5-7.8.0.1013.jar                         |Just Enough Items             |jei                           |7.8.0.1013          |DONE      |Manifest: NOSIGNATURE
+		opotato-1.16.5-2.2.7.jar                          |Opotato                       |opotato                       |1.16.5-2.2.7        |DONE      |Manifest: NOSIGNATURE
+		nerb-1.16.5-0.3.1-FORGE.jar                       |Not Enough Recipe Book        |nerb                          |0.3.1               |DONE      |Manifest: NOSIGNATURE
+		connectivity-2.4-1.16.5.jar                       |Connectivity Mod              |connectivity                  |2.4-1.16.5          |DONE      |Manifest: NOSIGNATURE
+		reap-1.16.5-1.0.1.jar                             |Reap Mod                      |reap                          |1.16.5-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		sleeping_bags-1.16.5-1.0.3.jar                    |Sleeping Bags                 |sleeping_bags                 |1.16.5-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		Waystones_1.16.5-7.6.4.jar                        |Waystones                     |waystones                     |7.6.4               |DONE      |Manifest: NOSIGNATURE
+		Medieval_Craft_(structures)-2.0.2-1.16.5.jar      |Medieval craft_structures     |medieval_craft_structures     |2.0.1               |DONE      |Manifest: NOSIGNATURE
+		rideanything1.16.5.jar                            |RideAnything                  |rideanything                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		journeymap-1.16.5-5.8.6.jar                       |Journeymap                    |journeymap                    |5.8.6               |DONE      |Manifest: NOSIGNATURE
+		fastasyncworldsave-1.16.5-1.4.jar                 |fastasyncworldsave mod        |fastasyncworldsave            |1.16.5-1.4          |DONE      |Manifest: NOSIGNATURE
+		Controlling-7.0.0.31.jar                          |Controlling                   |controlling                   |7.0.0.31            |DONE      |Manifest: NOSIGNATURE
+		citadel-1.8.1-1.16.5.jar                          |Citadel                       |citadel                       |1.8.1               |DONE      |Manifest: NOSIGNATURE
+		Artifacts-1.16.5-2.10.6.jar                       |Artifacts                     |artifacts                     |1.16.5-2.10.6       |DONE      |Manifest: NOSIGNATURE
+		DungeonCrawl-1.16.5-2.3.12.jar                    |Dungeon Crawl                 |dungeoncrawl                  |2.3.12              |DONE      |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.16.5-3.15.20.755.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |1.16.5-3.15.20.755  |DONE      |Manifest: NOSIGNATURE
+		lazydfu-0.1.3.jar                                 |LazyDFU                       |lazydfu                       |0.1.3               |DONE      |Manifest: NOSIGNATURE
+		starlight-1.2.jar                                 |Starlight                     |starlight                     |1.0.0-RC2           |DONE      |Manifest: NOSIGNATURE
+		BeeFix-1.16.2-1.0.7.jar                           |Bee Fix                       |beefix                        |1.0.7               |DONE      |Manifest: NOSIGNATURE
+		iceandfire-2.1.12-1.16.5-patch-1.jar              |Ice and Fire                  |iceandfire                    |2.1.12-1.16.5-patch-|DONE      |Manifest: NOSIGNATURE
+		farsight-1.7.jar                                  |Farsight mod                  |farsight_view                 |1.7                 |DONE      |Manifest: NOSIGNATURE
+		fusion-1.2.12-forge-mc1.16.jar                    |Fusion                        |fusion                        |1.2.12              |DONE      |Manifest: NOSIGNATURE
+		FpsReducer-forge-1.24-mc1.16.5.jar                |FPS Reducer                   |fpsreducer                    |1.24-mc1.16.5       |DONE      |Manifest: NOSIGNATURE
+		carryon-1.16.5-1.15.6.24.jar                      |Carry On                      |carryon                       |1.15.6.24           |DONE      |Manifest: NOSIGNATURE
+		biggerstacks-1.16.5-2026.02.24.jar                |Bigger Stacks                 |biggerstacks                  |1.16.5-2026.02.24   |DONE      |Manifest: NOSIGNATURE
+		JustEnoughResources-1.16.5-0.12.2.216.jar         |Just Enough Resources         |jeresources                   |0.12.2.216          |DONE      |Manifest: NOSIGNATURE
+		singleplayersleepmod-1.16.5_1.0.2.jar             |Single Player Sleep Mod       |singleplayersleepmod          |1.16.5_1.0.2        |DONE      |Manifest: NOSIGNATURE
+		Paraglider-1.16.5-1.3.2.14.jar                    |Paraglider                    |paraglider                    |1.3.2.14            |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.42-universal.jar                |Forge                         |forge                         |36.2.42             |DONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		twilightforest-1.16.5-4.0.870-universal.jar       |The Twilight Forest           |twilightforest                |NONE                |DONE      |Manifest: NOSIGNATURE
+		tl_skin_cape_forge_1.15.2_1.16.5-1.37.jar         |TLSkinCape                    |tlskincape                    |1.37                |DONE      |Manifest: NOSIGNATURE
+		supplementaries-1.16.5-0.18.5.jar                 |Supplementaries               |supplementaries               |0.18.3              |DONE      |Manifest: NOSIGNATURE
+		konkrete_forge_1.6.1_MC_1.16.2-1.16.5.jar         |Konkrete                      |konkrete                      |1.6.1               |DONE      |Manifest: NOSIGNATURE
+		simple_hammers-0.0.1.jar                          |Simple Hammers                |simple_hammers                |0.0.1               |DONE      |Manifest: NOSIGNATURE
+		selene-1.16.5-1.9.0.jar                           |Selene                        |selene                        |1.16.5-1.0          |DONE      |Manifest: NOSIGNATURE
+		Medieval_Craft(Weapons)-1.4.1-1.16.5.jar          |Medieval_craft_weapons        |medieval_craft_weapons        |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		DungeonsArise-1.16.5-2.1.49-beta.jar              |When Dungeons Arise           |dungeons_arise                |2.1.49              |DONE      |Manifest: NOSIGNATURE
+		dungeons_1.10.3_mc1.16.5.jar                      |Minecraft Dungeons            |duneons                       |1.10.3              |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.42-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: NOSIGNATURE
+		armorhotswap-1.16-1.9.jar                         |Armor Hotswap                 |armorhotswap                  |1.9                 |DONE      |Manifest: NOSIGNATURE
+		smoothchunk1.16.5-2.0.jar                         |Smoothchunk mod               |smoothchunk                   |2.0                 |DONE      |Manifest: NOSIGNATURE
+		voicechat-forge-1.16.5-2.6.12.jar                 |Simple Voice Chat             |voicechat                     |1.16.5-2.6.12       |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-2.14-mc1.16.2.jar                     |Mouse Tweaks                  |mousetweaks                   |2.14                |DONE      |Manifest: NOSIGNATURE
+		justenoughbreeding-forge-1.16.2-1.16.5-1.0.6.jar  |Just Enough Breeding          |justenoughbreeding            |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.20-forge-mc1.16.jar    |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.20              |DONE      |Manifest: NOSIGNATURE
+		Ksyxis-1.3.2.jar                                  |Ksyxis                        |ksyxis                        |1.3.2               |DONE      |Manifest: NOSIGNATURE
+		spark-1.9.1-forge.jar                             |spark                         |spark                         |1.9.1               |DONE      |Manifest: NOSIGNATURE
+		betterfpsdist-1.2.jar                             |betterfpsdist mod             |betterfpsdist                 |1.2                 |DONE      |Manifest: NOSIGNATURE
+		jeiintegration_1.16.5-7.1.0.22.jar                |JEI Integration               |jeiintegration                |7.1.0.22            |DONE      |Manifest: NOSIGNATURE
+		curios-forge-1.16.5-4.1.0.0.jar                   |Curios API                    |curios                        |1.16.5-4.1.0.0      |DONE      |Manifest: NOSIGNATURE
+		collective-1.16.5-5.49.jar                        |Collective                    |collective                    |5.49                |DONE      |Manifest: NOSIGNATURE
+		Searchables-forge-1.16.5-1.0.7.jar                |Searchables                   |searchables                   |1.0.7               |DONE      |Manifest: NOSIGNATURE
+		JustEnoughProfessions-1.16.5-1.2.2.jar            |Just Enough Professions (JEP) |justenoughprofessions         |1.2.2               |DONE      |Manifest: NOSIGNATURE
+		elevatorid-1.16.5-1.7.13.jar                      |Elevator Mod                  |elevatorid                    |1.16.5-1.7.13       |DONE      |Manifest: NOSIGNATURE
+		tombstone-1.16.5-6.9.7.jar                        |Corail Tombstone              |tombstone                     |6.9.7               |DONE      |Manifest: NOSIGNATURE
+		OnlyLooking-1.16.5-1.0.0.jar                      |OnlyLooking                   |onlylooking                   |1.16.5-1.0.0        |DONE      |Manifest: NOSIGNATURE
+		architectury-1.32.68.jar                          |Architectury                  |architectury                  |1.32.68             |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.16.x-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.16.4      |DONE      |Manifest: NOSIGNATURE
+		ferritecore-2.1.1-forge.jar                       |Ferrite Core                  |ferritecore                   |2.1.1               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		connectedglass-1.1.14-forge-mc1.16.jar            |Connected Glass               |connectedglass                |1.1.14              |DONE      |Manifest: NOSIGNATURE
+		cloth-config-4.17.132-forge.jar                   |Cloth Config v4 API           |cloth-config                  |4.17.132            |DONE      |Manifest: NOSIGNATURE
+		NoChatLagForge-1.1.0-1.16.jar                     |NoChatLagForge                |nochatlagforge                |1.1.0-1.16          |DONE      |Manifest: NOSIGNATURE
+		justzoom_forge_1.0.2-2_MC_1.16.5.jar              |Just Zoom                     |justzoom                      |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		FallingTree-1.16.5-2.11.7.jar                     |FallingTree                   |fallingtree                   |2.11.7              |DONE      |Manifest: NOSIGNATURE
+		infinitetrading_1.16.5-3.0.jar                    |Infinite Trading              |infinitetrading               |3.0                 |DONE      |Manifest: NOSIGNATURE
+		francium-1.16.5-1.0.1.jar                         |Francium                      |francium                      |1.16.5-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		expandability-2.0.2-forge.jar                     |ExpandAbility                 |expandability                 |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.106.jar                 |GeckoLib                      |geckolib3                     |3.0.106             |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: b0559cdb-5960-4cf9-b621-2cb39ae6ebbc
+	Player Count: 2 / 5; [ServerPlayerEntity['LFCR'/1124, l='ServerLevel[Mundo raro]', x=-911.15, y=72.00, z=3350.85], ServerPlayerEntity['Ray'/701, l='ServerLevel[Mundo raro]', x=-1096.39, y=72.00, z=3652.51]]
+	Data Packs: vanilla, mod:inventorysorter (incompatible), mod:tombstone, mod:dungeoncrawl, mod:trashslot (incompatible), mod:sophisticatedbackpacks, mod:jei, mod:cloth-config (incompatible), mod:carryon, mod:singleplayersleepmod, mod:fallingtree, mod:forge, mod:reap, mod:sleeping_bags, mod:expandability, mod:curios, mod:tlskincape (incompatible), mod:supplementaries, mod:rideanything, mod:selene, mod:journeymap (incompatible), mod:dungeons_arise, mod:artifacts, mod:citadel (incompatible), mod:iceandfire, mod:twilightforest, mod:dynamiclightsreforged, mod:opotato, mod:nerb (incompatible), mod:connectivity, mod:fastasyncworldsave (incompatible), mod:lazydfu, mod:starlight (incompatible), mod:beefix, mod:farsight_view, mod:fpsreducer, mod:jeresources, mod:konkrete, mod:armorhotswap (incompatible), mod:smoothchunk, mod:mousetweaks, mod:justenoughbreeding (incompatible), mod:ksyxis (incompatible), mod:spark, mod:betterfpsdist, mod:jeiintegration, mod:justenoughprofessions, mod:onlylooking, mod:architectury, mod:appleskin, mod:ferritecore (incompatible), mod:nochatlagforge (incompatible), mod:justzoom (incompatible), mod:francium, mod:mowziesmobs, mod:waystones (incompatible), mod:medieval_craft_structures, mod:controlling, mod:fusion, mod:biggerstacks (incompatible), mod:paraglider, mod:simple_hammers (incompatible), mod:medieval_craft_weapons, mod:duneons, mod:supermartijn642corelib, mod:collective, mod:searchables, mod:elevatorid, mod:connectedglass, mod:infinitetrading, mod:geckolib3 (incompatible), mod:voicechat
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
